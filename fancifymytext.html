@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fancify My Text</title>
+
+    <!-- Link to JavaScript file -->
+    <script src="fancifymytext.js"></script>
+</head>
+
+<body>
+    <h1>Fancify my Text</h1>
+
+    <!-- Text field area in a bordered fieldset box -->
+
+    <fieldset style="border: 1px solid black; padding: 10px;">
+        <legend>Text</legend>
+        <textarea id="userText" rows="4" cols="30" placeholder="Type your text here..."></textarea>
+    </fieldset>
+
+    <!-- Fancify controls in a bordered fieldset box -->
+
+<fieldset style="border: 1px solid black; padding: 10px; margin-top: 10px;">
+    <legend>Fancify</legend>
+    
+    <!-- Bigger button with onclick handler -->
+    <button onclick="makeTextBigger()">Bigger!</button>
+    
+    <!-- Fancy and Boring radio buttons -->
+    <div style="margin-top: 10px;">
+        <input type="radio" id="fancyShmancy" name="style" onchange="applyFancyStyle()">
+        <label for="fancyShmancy">FancyShmancy</label>
+
+        <input type="radio" id="boringBetty" name="style" onchange="applyFancyStyle()">
+        <label for="boringBetty">BoringBetty</label>
+        
+        
+    </div>
+</fieldset>
+<br>
+<!-- Moo button -->
+        <button onclick="addMoo()" style="margin-left: 10px;">Moo</button>
+
+</body>
+</html>
