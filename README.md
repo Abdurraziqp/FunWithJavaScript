@@ -12,6 +12,6 @@ This project contains interactive JavaScript functionalities for text manipulati
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/FunWithJavaScript.git
+   git clone https://github.com/Abdurraziqp/FunWithJavaScript.git
 
 
